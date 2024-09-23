@@ -1,0 +1,69 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px; /* Add some gap between the columns */
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for better readability */
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold; /* Ensure headers are bold */
+}
+
+.user-table td {
+  color: #333;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure image covers the circle properly */
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Align items vertically */
+  padding: 10px; /* Adjust padding for better spacing */
+  height: 10;
+}
+
+.action-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer; /* Indicate that buttons are clickable */
+}
+
+.action-btn i {
+  font-size: 18px; /* Slightly smaller font size for better alignment */
+  color: #333; /* Consistent color with table text */
+}
+
+.action-btn:hover i {
+  color: #007bff; /* Change color on hover for better visual feedback */
+}

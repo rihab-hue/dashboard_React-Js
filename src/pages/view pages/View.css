@@ -1,0 +1,32 @@
+.details-container {
+   width: 100%;
+  }
+  
+  .details-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .details-item {
+    margin-bottom: 10px;
+  }
+  
+  .details-label {
+    font-weight: bold;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius:50%px;
+    margin-top: 10px;
+   
+  }
+  

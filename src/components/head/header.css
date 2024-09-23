@@ -1,0 +1,7 @@
+
+.logoutbtn{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  /* background-color: #0a2b1e !important; */
+}
